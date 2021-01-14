@@ -1,3 +1,6 @@
+import numpy as np
+from scipy import linalg
+
 A = np.array([[1,1,-1,0,0],[4,3,0,-1,0],[2,3,0,0,1]])
 c = np.array([1,2,0,0,0])
 b = np.array([35,120,150])
